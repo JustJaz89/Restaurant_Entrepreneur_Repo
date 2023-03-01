@@ -1,4 +1,4 @@
-class Logger():
+class Logger:
 
     def transaction_count(self, int):
         pass
