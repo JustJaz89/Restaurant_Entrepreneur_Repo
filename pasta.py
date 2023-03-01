@@ -1,7 +1,12 @@
-class Pasta():
+from order import Order
+
+class Pasta(Order):
+
+    def __init__(self):
+        super().__init__("Pasta")
 
     def dish_name(self, string):
-        pass
+        self.pasta = type
 
     def price(self, int):
-        pass
+        self.pasta = (12)
