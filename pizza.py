@@ -1,7 +1,12 @@
-class Pizza():
+from order import Order
+
+class Pizza(Order):
+
+    def __init__(self):
+        super().__init__("Pizza")
 
     def dish_name(self, string):
-        pass
+        self.pizza = type
 
     def price(self, int):
-        pass
+        self.pizza = (10)
