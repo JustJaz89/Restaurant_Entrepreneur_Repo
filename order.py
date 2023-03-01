@@ -1,3 +1,7 @@
+from pizza import Pizza
+from pasta import Pasta
+from salad import Salad
+
 class Order:
 
     def __init__(self, type):
@@ -9,6 +13,6 @@ class Order:
         self.salad = food
 
     def price(self, int):
-        self.pizza = (10)
+        self.pizza = ("10")
         self.pasta = (12)
         self.salad = (8)
