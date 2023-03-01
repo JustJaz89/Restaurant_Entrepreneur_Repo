@@ -1,4 +1,4 @@
-class Franchise():
+class Franchise:
 
     def location_number(self, int):
         pass
