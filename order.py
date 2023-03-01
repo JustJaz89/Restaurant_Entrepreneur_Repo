@@ -1,8 +1,7 @@
-from pizza import Pizza
-from pasta import Pasta
-from salad import Salad
-
 class Order():
+
+    def __init__(self, type):
+        self.type = type
 
     def dish_name(self, string):
         pass
