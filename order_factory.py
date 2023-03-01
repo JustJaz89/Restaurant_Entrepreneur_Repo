@@ -2,7 +2,7 @@ from pizza import Pizza
 from pasta import Pasta
 from salad import Salad
 
-class OrderFactory():
+class OrderFactory:
 
     def create_order(self, type):
         if type == "pizza":
