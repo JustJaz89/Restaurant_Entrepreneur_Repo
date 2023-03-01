@@ -1,5 +1,6 @@
 from franchise import Franchise
 from logger import Logger
+from order_factory import OrderFactory
 
 class Simulation:
 
