@@ -7,4 +7,5 @@ class Logger:
         pass
 
     def log_transaction(self, order, int):
-        pass
+        self.order = order
+        self.store_number = ()
