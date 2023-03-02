@@ -8,3 +8,4 @@ class Franchise:
         Type '1' for pizza, '2' for pasta, '3' for salad. """)
         
 # OrderFactory.create_order()
+# logger.log_transaction()
