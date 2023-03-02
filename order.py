@@ -4,9 +4,6 @@ from salad import Salad
 
 class Order:
 
-    def __init__(self, type):
-        self.type = type
-
     def dish_name(self, food):
         self.pizza = food
         self.pasta = food
