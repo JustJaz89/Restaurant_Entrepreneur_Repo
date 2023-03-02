@@ -8,4 +8,4 @@ class Logger:
 
     def log_transaction(self, order, int):
         self.order = order
-        self.store_number = ()
+        self.location_number = ()
