@@ -1,4 +1,6 @@
 class Franchise:
+    def __init__(self, location_number):
+        self.location_number = location_number
 
     def place_order(self):
         self.ask_for_order = input(f"""What are you ordering?
